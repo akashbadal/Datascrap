@@ -76,7 +76,7 @@ if __name__ == '__main__':
     p = HTMLTableParser()
     p.feed(result.text)
     a = pd.DataFrame(p.tables[1])
-    # main(a)
+    main(a)
     main2(a)
 
     print("*******************************************************Finally ,scrapping finished--@<@$#******************************************************")
